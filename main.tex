@@ -1,0 +1,46 @@
+\documentclass[a4paper,12pt]{article}
+
+% opcje
+\input{latex-settings.tex}
+
+\begin{document}
+
+% Nagłówek z logo
+\begin{minipage}{0.48\textwidth}
+% Miejsce na logo koła naukowego
+% Wstaw logo koła naukowego w lewym górnym rogu
+\includegraphics[width=0.4\textwidth]{KN_Algo.png}
+\end{minipage}
+\hfill
+\begin{minipage}{0.48\textwidth}
+\raggedleft
+% Miejsce na logo Politechniki
+% Wstaw logo uczelni w prawym górnym rogu
+\includegraphics[width=0.4\textwidth]{PWR-pion_Obszar-roboczy-1-1.png}
+\end{minipage}
+
+\vspace{2cm} % Przerwa między nagłówkiem a resztą treści
+
+% Tytuł dokumentu
+% Miejsce na tytuł dokumentu
+\begin{center}
+\Large \textbf{Tytuł Dokumentu} \\ % <-- Podaj tytuł dokumentu
+\vspace{0.5cm}
+\normalsize Opis lub podtytuł dokumentu % <-- Podaj podtytuł lub opis dokumentu
+\end{center}
+
+
+% Treść główna
+% Miejsce na główną treść dokumentu
+
+\section{Problem Statement}
+
+% Sekcja brudnopisow - na luzne notateczki, do wyrzucenia przy finalnym produkcie
+\input{BrudnopisBartek}
+
+% Bibliografia
+\pagestyle{bibliographyStyle}
+\bibliographystyle{abbrv}
+\bibliography{bibliography}
+
+\end{document}
